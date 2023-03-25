@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    box-shadow: 0px 1px 20px gray;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.retract {
+    position: fixed;
+    float: right;
+    border: none;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.retract:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.main {
+    padding-top: 6vw;
+    background-image: url(./landscape-neon-dark-city-technology-background-cyber-punk-style-3d-illustration-rendering_37129-3008.avif);
+    background-size: cover;
+    height: 25vw;
+}
+
+.projects {
+    height: 100px;
+    background-color: white;
+    margin: 20px 2% 0px 2%;
+    border-radius: 5px;
+    width: 96%;
+    color: white;
+    text-align: center;
+    border: 3px solid #176088;
+    box-shadow: 0px 5px 10px gray;
+
+}
+
+.l{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+        margin-top: 2vw;
+}
+.pp{
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+            display: none;
+                opacity: 0;
+    border-radius: 100%;
+    background-image: url(./l60Hf.png);
+    border: 2px solid white;
+    background-size: cover;
+}
+.name{
+    margin-top: 21vw;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.test{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: right;
+    display: none;
+}
+.getH{
+    display: inline-block;
+    width: 30%;
+    background-color: grey;
+    height: 400px;
+    margin: 50px 10px 50px 10px;
+    border-radius: 5px;
+}
+#three{
+    margin-bottom: 10vw;
+}
+#first{
+    background-image: url(./Capture\ \(2\).PNG);
+    background-size: cover;
+}
+.getH:hover{
+    transition: .3s;
+    box-shadow: 0px 0px 30px #176088;
+}
+#third{
+    text-align: center;
+    color: #176088;
+    background-image: url(./sdsds.PNG);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #176088;
+}
+#second{
+background-image: url(./Capture.PNG);
+background-size: cover;
+border: 2px solid #176088;
+}
